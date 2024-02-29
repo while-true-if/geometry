@@ -23,6 +23,12 @@ The Manhattan distance between the endpoints of two line segments is calculated.
 ### hamming
 2つの文字列(もしくはlist)から2つのハミング距離を求めます。<br>
 The Hamming distance between two strings (or lists) is calculated.
+### permutation
+順列を求めます。<br>
+The permutations are calculated.
+### combination
+組み合わせを求めます。<br>
+The combinations are calculated.
 ## このライブラリを使用するために必要なもの(Requirements for using this library.)
 ```geometry.py```だけです。<br>
 Just ```geometry.py```.
