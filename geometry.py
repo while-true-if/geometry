@@ -39,3 +39,12 @@ def hamming(a,b):
         if a[i]!=b[i]:
             c+=1
     return c
+
+def permutation(a,b):
+    c=1
+    for i in range(a-b+1,a+1,1):
+        c*=i
+    return c
+
+def combination(a,b):
+    return permutation(a,b)//math.factorial(b)
