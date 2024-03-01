@@ -42,7 +42,7 @@ def hamming(a, b):
 
 def permutation(a, b):
     c = 1
-    for i in range(a - b + 1, a + 1, 1):
+    for i in range(a - b + 1, a + 1):
         c *= i
     return c
 
