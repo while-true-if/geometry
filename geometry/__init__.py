@@ -48,3 +48,10 @@ def permutation(a, b):
 
 def combination(a, b):
     return permutation(a, b) // math.factorial(b)
+
+def accumulate(x):
+    y = [0] * len(x)
+    y[0] = x[0]
+    for i in range(1, len(x)):
+        y[i] = y[i-1] + x[i]
+    return y
