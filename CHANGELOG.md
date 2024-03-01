@@ -1,5 +1,10 @@
 # Change Log
 
+## 0.2.0
+
+- Added `accumulate`
+- Formated `permutation`
+
 ## 0.1.0
 
 - Added `cie_euclidean`
