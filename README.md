@@ -60,6 +60,12 @@ The permutations are calculated.
 
 The combinations are calculated.
 
+### accumulate
+
+listから累積和を求めます。
+
+The cumulative sum is calculated from a list.
+
 ## このライブラリを使用するために必要なもの(Requirements for using this library.)
 
 `geometry.py`だけです。
