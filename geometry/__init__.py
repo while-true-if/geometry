@@ -55,3 +55,24 @@ def accumulate(x):
     for i in range(1, len(x)):
         y[i] = y[i-1] + x[i]
     return y
+
+def reduce(a,b):
+    c=math.gcd(a,b)
+    a=a//c
+    b=b//c
+    return a,b
+
+__all__ = [
+    "cie_euclidean",
+    "euclidean",
+    "pythagorean",
+    "cie_heron",
+    "heron",
+    "cie_manhattan",
+    "manhattan",
+    "hamming",
+    "permutation",
+    "combination",
+    "accumulate",
+    "reduce"
+]
