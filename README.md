@@ -66,6 +66,12 @@ listから累積和を求めます。
 
 The cumulative sum is calculated from a list.
 
+### reduce
+
+2つの有理数を約分します。
+
+Simplify two rational numbers.
+
 ## このライブラリを使用するために必要なもの(Requirements for using this library.)
 
 `geometry.py`だけです。
